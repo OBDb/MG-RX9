@@ -35,7 +35,7 @@
   "signals": [
     {"id": "RX9_ATF_T_ECU_10513229", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, ECU 10513229"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "B423"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "B423"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "RX9_ATF_T_ECU_10472701_11194479", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, ECU 10472701 and 11194479"}
   ]}
