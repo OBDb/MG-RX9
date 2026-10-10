@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.22B043
+test_cases:
+- expected_values:
+    RX9_FUEL_TANK_LEVEL: 13.5
+  response: 7E80562B0430087AAAA
+- expected_values:
+    RX9_FUEL_TANK_LEVEL: 13.7
+  response: 7E80562B0430089AAAA
+- expected_values:
+    RX9_FUEL_TANK_LEVEL: 13.8
+  response: 7E80562B043008AAAAA
+- expected_values:
+    RX9_FUEL_TANK_LEVEL: 13.9
+  response: 7E80562B043008BAAAA
+- expected_values:
+    RX9_FUEL_TANK_LEVEL: 14
+  response: 7E80562B043008CAAAA
+- expected_values:
+    RX9_FUEL_TANK_LEVEL: 22.5
+  response: 7E80562B04300E1AAAA
+- expected_values:
+    RX9_FUEL_TANK_LEVEL: 55.5
+  response: 7E80562B043022BAAAA
+- expected_values:
+    RX9_FUEL_TANK_LEVEL: 58
+  response: 7E80562B0430244AAAA
+- expected_values:
+    RX9_FUEL_TANK_LEVEL: 61.5
+  response: 7E80562B0430267AAAA

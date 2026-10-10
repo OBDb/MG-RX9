@@ -1,0 +1,8 @@
+references:
+  - "https://en.wikipedia.org/wiki/Roewe_RX9"
+
+generations:
+  - name: "First Generation"
+    start_year: 2023
+    end_year: null
+    description: "The MG RX9 large SUV, sold as the Roewe RX9 in China, with a 2.0-liter turbo four."
