@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.22B140
+test_cases:
+- expected_values:
+    RX9_KNOCK_SNS_V: 0
+  response: 7E80762B1400000210A
+- expected_values:
+    RX9_KNOCK_SNS_V: 0
+  response: 7E80762B1400000226C
+- expected_values:
+    RX9_KNOCK_SNS_V: 0
+  response: 7E80762B14000002294
+- expected_values:
+    RX9_KNOCK_SNS_V: 0
+  response: 7E80762B14000002575
+- expected_values:
+    RX9_KNOCK_SNS_V: 0
+  response: 7E80762B1400000286A
+- expected_values:
+    RX9_KNOCK_SNS_V: 0
+  response: 7E80762B14000004094
+- expected_values:
+    RX9_KNOCK_SNS_V: 0
+  response: 7E80762B140000048CA
+- expected_values:
+    RX9_KNOCK_SNS_V: 0
+  response: 7E80762B14000005335
+- expected_values:
+    RX9_KNOCK_SNS_V: 0
+  response: 7E80762B14000006A46
+- expected_values:
+    RX9_KNOCK_SNS_V: 0
+  response: 7E80762B14000007405
