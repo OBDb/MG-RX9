@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22B145
+test_cases:
+- expected_values:
+    RX9_MISFIRES_C3: 336
+  response: 7E80562B1450150AAAA

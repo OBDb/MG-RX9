@@ -27,7 +27,7 @@
   "signals": [
     {"id": "RX9_MISFIRES_C2", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "B145"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "B145"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "RX9_MISFIRES_C3", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 3"}
   ]},
