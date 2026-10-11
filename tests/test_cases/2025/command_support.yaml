@@ -130,6 +130,8 @@ unsupported_commands_by_ecu:
   - 7DF.7ED.22B10F
   - 7DF.7ED.22B112
   - 7DF.7ED.22B114
+  "7E0":
+  - 7E0.7E8.22B036:RX9_EOP
   "7E3":
   - 7E3.7EB.22B18C
   - 7E3.7EB.22B309
