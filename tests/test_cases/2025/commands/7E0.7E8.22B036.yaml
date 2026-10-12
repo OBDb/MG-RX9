@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22B036
+test_cases:
+- expected_values:
+    RX9_EOP: 209.8556
+  response: 7E80562B03623CCAAAA
+- expected_values:
+    RX9_EOP: 216.5424
+  response: 7E80562B03624F0AAAA
+- expected_values:
+    RX9_EOP: 216.863
+  response: 7E80562B03624FEAAAA
+- expected_values:
+    RX9_EOP: 218.9011
+  response: 7E80562B0362557AAAA
+- expected_values:
+    RX9_EOP: 223.9849
+  response: 7E80562B0362635AAAA
+- expected_values:
+    RX9_EOP: 229.5954
+  response: 7E80562B036272AAAAA
