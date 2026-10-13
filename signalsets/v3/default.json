@@ -19,7 +19,7 @@
   "signals": [
     {"id": "RX9_KNOCK_SNS_V", "path": "Battery", "fmt": { "len": 8, "max": 5, "mul": 5, "div": 255, "unit": "volts" }, "name": "Knock sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "B143"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "B143"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "RX9_MISFIRES_C1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 1"}
   ]},
