@@ -1,20 +1,8 @@
 command_id: 7E0.7E8.22B034
 test_cases:
 - expected_values:
-    RX9_EO_T: 45
-  response: 7E80462B0347CAAAAAA
+    RX9_EO_T: 31.5
+  response: 7E80462B0346AAAAAAA
 - expected_values:
-    RX9_EO_T: 46.5
-  response: 7E80462B0347EAAAAAA
-- expected_values:
-    RX9_EO_T: 48.75
-  response: 7E80462B03481AAAAAA
-- expected_values:
-    RX9_EO_T: 53.25
-  response: 7E80462B03487AAAAAA
-- expected_values:
-    RX9_EO_T: 57
-  response: 7E80462B0348CAAAAAA
-- expected_values:
-    RX9_EO_T: 61.5
-  response: 7E80462B03492AAAAAA
+    RX9_EO_T: 69.75
+  response: 7E80462B0349DAAAAAA
