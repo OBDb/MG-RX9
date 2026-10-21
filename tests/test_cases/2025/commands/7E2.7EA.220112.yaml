@@ -1,0 +1,8 @@
+command_id: 7E2.7EA.220112
+test_cases:
+- expected_values:
+    RX9_7EA_VPWR: 12.2
+  response: 7EA046201127AAAAAAA
+- expected_values:
+    RX9_7EA_VPWR: 13.4
+  response: 7EA0462011286AAAAAA

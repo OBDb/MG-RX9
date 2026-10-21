@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.220112
+test_cases:
+- expected_values:
+    RX9_TCM_VPWR: 12.3
+  response: 7E9046201127BAAAAAA
+- expected_values:
+    RX9_TCM_VPWR: 13.4
+  response: 7E90462011286AAAAAA
+- expected_values:
+    RX9_TCM_VPWR: 13.5
+  response: 7E90462011287AAAAAA
