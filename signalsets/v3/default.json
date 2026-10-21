@@ -3,7 +3,7 @@
     { "hdr": "7E1", "type": "transmission" }
   ],
   "commands": [
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0112"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0112"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "RX9_ECM_VPWR", "path": "Electrical", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "volts" }, "name": "Control module voltage, engine module"}
   ]},
@@ -151,7 +151,7 @@
   "signals": [
     {"id": "RX9_ECM_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer, engine module"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "0112"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0112"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "RX9_TCM_VPWR", "path": "Electrical", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "volts" }, "name": "Control module voltage, transmission module"}
   ]},
@@ -239,7 +239,7 @@
   "signals": [
     {"id": "RX9_TCM_D001_RAW", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Transmission module D001 raw value"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "dbg": true, "cmd": {"22": "0112"}, "freq": 5,
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "0112"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "RX9_7EA_VPWR", "path": "Electrical", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "volts" }, "name": "Control module voltage, module 7EA"}
   ]},

@@ -1,0 +1,18 @@
+command_id: 7E0.7E8.220112
+test_cases:
+- expected_values:
+    RX9_ECM_VPWR: 12.6
+  response: 7E8046201127EAAAAAA
+- expected_values:
+    RX9_ECM_VPWR: 13.8
+  response: 7E8046201128AAAAAAA
+- expected_values:
+    RX9_ECM_VPWR: 12.6
+  response: |-
+    > 7E0.7E8.220112
+    7E8046201127EAAAAAA
+- expected_values:
+    RX9_ECM_VPWR: 13.8
+  response: |-
+    > 7E2.7EA.220112
+    7E8046201128AAAAAAA
