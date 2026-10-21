@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.22B011
+test_cases:
+- expected_values:
+    RX9_TCM_B011_RAW: 77
+  response: 7E90462B0114DAAAAAA
+- expected_values:
+    RX9_TCM_B011_RAW: 79
+  response: 7E90462B0114FAAAAAA
+- expected_values:
+    RX9_TCM_B011_RAW: 90
+  response: 7E90462B0115AAAAAAA

@@ -1,0 +1,18 @@
+command_id: 7E0.7E8.22B110
+test_cases:
+- expected_values:
+    RX9_ECM_B110_RAW: 4
+  response: 7E80562B1100004AAAA
+- expected_values:
+    RX9_ECM_B110_RAW: -97
+  response: 7E80562B110FF9FAAAA
+- expected_values:
+    RX9_ECM_B110_RAW: -4
+  response: 7E80562B110FFFCAAAA
+- expected_values:
+    RX9_ECM_B110_RAW: 112
+  response: |-
+    > 7E0.22B140
+    NO DATA
+    > 7DF.7ED.22B110
+    7E80562B1100070AAAA

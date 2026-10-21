@@ -1,0 +1,5 @@
+command_id: 7E2.7EA.22D001
+test_cases:
+- expected_values:
+    RX9_7EA_D001_RAW: 119
+  response: 7EA0462D00177AAAAAA
