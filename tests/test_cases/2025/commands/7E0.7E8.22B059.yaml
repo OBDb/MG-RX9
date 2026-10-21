@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22B059
+test_cases:
+- expected_values:
+    RX9_ECM_B059_RAW: -3865
+  response: 7E80562B059F0E7AAAA

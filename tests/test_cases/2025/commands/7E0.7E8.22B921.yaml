@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22B921
+test_cases:
+- expected_values:
+    RX9_ECM_B921_RAW: 720
+  response: 7E80762B921000002D0
+- expected_values:
+    RX9_ECM_B921_RAW: -10788
+  response: 7E80762B921FFFFD5DC
+- expected_values:
+    RX9_ECM_B921_RAW: -3589
+  response: 7E80762B921FFFFF1FB
+- expected_values:
+    RX9_ECM_B921_RAW: -3584
+  response: 7E80762B921FFFFF200
+- expected_values:
+    RX9_ECM_B921_RAW: -800
+  response: 7E80762B921FFFFFCE0

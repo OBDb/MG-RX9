@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22B111
+test_cases:
+- expected_values:
+    RX9_ECM_B111_RAW: 18
+  response: 7E80562B1110012AAAA
+- expected_values:
+    RX9_ECM_B111_RAW: 54
+  response: 7E80562B1110036AAAA
+- expected_values:
+    RX9_ECM_B111_RAW: 82
+  response: 7E80562B1110052AAAA
+- expected_values:
+    RX9_ECM_B111_RAW: 93
+  response: 7E80562B111005DAAAA

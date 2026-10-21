@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22B019
+test_cases:
+- expected_values:
+    RX9_TCM_B019_RAW: 255
+  response: 7E90462B019FFAAAAAA
