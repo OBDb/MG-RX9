@@ -6,3 +6,12 @@ test_cases:
 - expected_values:
     RX9_TCM_B052_RAW: 6
   response: 7E90462B05206AAAAAA
+- expected_values:
+    RX9_TCM_B052_RAW: 11
+  response: 7E90462B0520BAAAAAA
+- expected_values:
+    RX9_TCM_B052_RAW: 16
+  response: 7E90462B05210AAAAAA
+- expected_values:
+    RX9_TCM_B052_RAW: 21
+  response: 7E90462B05215AAAAAA

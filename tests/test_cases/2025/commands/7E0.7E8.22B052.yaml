@@ -1,34 +1,21 @@
 command_id: 7E0.7E8.22B052
 test_cases:
 - expected_values:
-    RX9_ECM_B052_RAW: 134
-  response: 7E80562B0520086AAAA
+    RX9_ECM_B052_RAW: 116
+  response: 7E80562B0520074AAAA
 - expected_values:
-    RX9_ECM_B052_RAW: 168
-  response: 7E80562B05200A8AAAA
+    RX9_ECM_B052_RAW: 253
+  response: 7E80562B05200FDAAAA
 - expected_values:
-    RX9_ECM_B052_RAW: 169
-  response: 7E80562B05200A9AAAA
-- expected_values:
-    RX9_ECM_B052_RAW: 272
-  response: 7E80562B0520110AAAA
-- expected_values:
-    RX9_ECM_B052_RAW: 280
-  response: 7E80562B0520118AAAA
-- expected_values:
-    RX9_ECM_B052_RAW: 304
-  response: 7E80562B0520130AAAA
-- expected_values:
-    RX9_ECM_B052_RAW: 322
-  response: 7E80562B0520142AAAA
-- expected_values:
-    RX9_ECM_B052_RAW: 357
-  response: 7E80562B0520165AAAA
-- expected_values:
-    RX9_ECM_B052_RAW: 410
-  response: 7E80562B052019AAAAA
+    RX9_ECM_B052_RAW: 267
+  response: 7E80562B052010BAAAA
 - expected_values:
     RX9_ECM_B052_RAW: 138
   response: |-
     > 7E0.7E8.22B052
     7E80562B052008AAAAA
+- expected_values:
+    RX9_ECM_B052_RAW: 135
+  response: |-
+    > 7E1.7E9.22B052
+    7E80562B0520087AAAA
