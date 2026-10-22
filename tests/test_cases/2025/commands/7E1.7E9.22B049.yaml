@@ -1,0 +1,32 @@
+command_id: 7E1.7E9.22B049
+test_cases:
+- expected_values:
+    RX9_TCM_B049_RAW: 17
+  response: 7E90562B0490011AAAA
+- expected_values:
+    RX9_TCM_B049_RAW: 29
+  response: 7E90562B049001DAAAA
+- expected_values:
+    RX9_TCM_B049_RAW: 30
+  response: 7E90562B049001EAAAA
+- expected_values:
+    RX9_TCM_B049_RAW: 31
+  response: 7E90562B049001FAAAA
+- expected_values:
+    RX9_TCM_B049_RAW: 127
+  response: 7E90562B049007FAAAA
+- expected_values:
+    RX9_TCM_B049_RAW: 175
+  response: 7E90562B04900AFAAAA
+- expected_values:
+    RX9_TCM_B049_RAW: 183
+  response: 7E90562B04900B7AAAA
+- expected_values:
+    RX9_TCM_B049_RAW: 187
+  response: 7E90562B04900BBAAAA
+- expected_values:
+    RX9_TCM_B049_RAW: -18
+  response: 7E90562B049FFEEAAAA
+- expected_values:
+    RX9_TCM_B049_RAW: -2
+  response: 7E90562B049FFFEAAAA
