@@ -131,7 +131,7 @@
   "signals": [
     {"id": "RX9_ECM_B401_RAW", "path": "ECU", "fmt": { "len": 32, "max": 4294967295, "unit": "scalar" }, "name": "Engine module B401 raw value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "B705"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "B705"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "RX9_ECM_B705_RAW", "path": "ECU", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "scalar" }, "name": "Engine module B705 raw value"}
   ]},
