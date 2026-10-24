@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22B013
+test_cases:
+- expected_values:
+    RX9_ECM_B013_RAW: 10903
+  response: 7E80562B0132A97AAAA
+- expected_values:
+    RX9_ECM_B013_RAW: 13577
+  response: 7E80562B0133509AAAA
+- expected_values:
+    RX9_ECM_B013_RAW: 13784
+  response: 7E80562B01335D8AAAA
+- expected_values:
+    RX9_ECM_B013_RAW: 13851
+  response: 7E80562B013361BAAAA
+- expected_values:
+    RX9_ECM_B013_RAW: 12392
+  response: |-
+    UNABLE TO CONNECT
+    > 7E1.7E9.22B013
+    7E80562B0133068AAAA

@@ -27,7 +27,7 @@
   "signals": [
     {"id": "RX9_ECM_B011_RAW", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine module B011 raw value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "B013"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "B013"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "RX9_ECM_B013_RAW", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Engine module B013 raw value"}
   ]},
@@ -179,7 +179,7 @@
   "signals": [
     {"id": "RX9_TCM_B011_RAW", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Transmission module B011 raw value"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "B013"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "B013"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "RX9_TCM_B013_RAW", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Transmission module B013 raw value"}
   ]},
