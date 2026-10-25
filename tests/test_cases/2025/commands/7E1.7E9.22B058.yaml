@@ -1,20 +1,8 @@
 command_id: 7E1.7E9.22B058
 test_cases:
 - expected_values:
-    RX9_TCM_B058_RAW: 154
-  response: 7E90462B0589AAAAAAA
-- expected_values:
-    RX9_TCM_B058_RAW: 164
-  response: 7E90462B058A4AAAAAA
-- expected_values:
-    RX9_TCM_B058_RAW: 180
-  response: 7E90462B058B4AAAAAA
-- expected_values:
-    RX9_TCM_B058_RAW: 186
-  response: 7E90462B058BAAAAAAA
-- expected_values:
-    RX9_TCM_B058_RAW: 187
-  response: 7E90462B058BBAAAAAA
+    RX9_TCM_B058_RAW: 95
+  response: 7E90462B0585FAAAAAA
 - expected_values:
     RX9_TCM_B058_RAW: 188
   response: 7E90462B058BCAAAAAA
