@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22E101
+test_cases:
+- expected_values:
+    RX9_ECM_ODO: 0
+  response: 7E80662E101000000AA
+- expected_values:
+    RX9_ECM_ODO: 23641
+  response: 7E80662E101005C59AA
+- expected_values:
+    RX9_ECM_ODO: 23642
+  response: 7E80662E101005C5AAA
+- expected_values:
+    RX9_ECM_ODO: 23643
+  response: 7E80662E101005C5BAA
+- expected_values:
+    RX9_ECM_ODO: 23665
+  response: 7E80662E101005C71AA
+- expected_values:
+    RX9_ECM_ODO: 23666
+  response: 7E80662E101005C72AA
+- expected_values:
+    RX9_ECM_ODO: 23667
+  response: 7E80662E101005C73AA

@@ -147,7 +147,7 @@
   "signals": [
     {"id": "RX9_ECM_D001_RAW", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine module D001 raw value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "E101"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E101"}, "freq": 30, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "RX9_ECM_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer, engine module"}
   ]},
