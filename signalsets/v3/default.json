@@ -103,7 +103,7 @@
   "signals": [
     {"id": "RX9_ECM_B111_RAW", "path": "ECU", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "scalar" }, "name": "Engine module B111 raw value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "B120"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "B120"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "RX9_ECM_B120_RAW", "path": "ECU", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "scalar" }, "name": "Engine module B120 raw value"}
   ]},
