@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22B120
+test_cases:
+- expected_values:
+    RX9_ECM_B120_RAW: -14
+  response: 7E80562B120FFF2AAAA
+- expected_values:
+    RX9_ECM_B120_RAW: -13
+  response: 7E80562B120FFF3AAAA
+- expected_values:
+    RX9_ECM_B120_RAW: -8
+  response: 7E80562B120FFF8AAAA
+- expected_values:
+    RX9_ECM_B120_RAW: -7
+  response: 7E80562B120FFF9AAAA
+- expected_values:
+    RX9_ECM_B120_RAW: -3
+  response: 7E80562B120FFFDAAAA
