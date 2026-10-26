@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22B401
+test_cases:
+- expected_values:
+    RX9_ECM_B401_RAW: 100663296
+  response: 7E80762B40106000000
