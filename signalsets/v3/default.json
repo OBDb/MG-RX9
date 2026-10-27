@@ -187,7 +187,7 @@
   "signals": [
     {"id": "RX9_TCM_B019_RAW", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Transmission module B019 raw value"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "B025"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "B025"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "RX9_TCM_B025_RAW", "path": "ECU", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "scalar" }, "name": "Transmission module B025 raw value"}
   ]},
