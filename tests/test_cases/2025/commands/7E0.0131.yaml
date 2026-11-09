@@ -4,14 +4,21 @@ test_cases:
     CLR_DIST: 7245
   response: 7E80441311C4DAAAAAA
 - expected_values:
-    CLR_DIST: 20938
-  response: 7E804413151CAAAAAAA
-- expected_values:
-    CLR_DIST: 20940
-  response: 7E804413151CCAAAAAA
+    CLR_DIST: 21764
+  response: 7E80441315504AAAAAA
 - expected_values:
     CLR_DIST: 7247
   response: 7E90441311C4FAAAAAA
+- expected_values:
+    CLR_DIST: 21737
+  response: 7E904413154E9AAAAAA
+- expected_values:
+    CLR_DIST: 21764
+  response: |-
+    CAN ERROR
+    NO DATA
+    > 7E1.7E9.0131
+    7E80441315504AAAAAA
 - expected_values:
     CLR_DIST: 7245
   response: |-
