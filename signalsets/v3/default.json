@@ -135,7 +135,7 @@
   "signals": [
     {"id": "RX9_ECM_B705_RAW", "path": "ECU", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "scalar" }, "name": "Engine module B705 raw value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "B712"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "B712"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "RX9_ECM_B712_RAW", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine module B712 raw value"}
   ]},
