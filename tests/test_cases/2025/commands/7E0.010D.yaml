@@ -14,3 +14,10 @@ test_cases:
   response: |-
     > 7E1.7E9.010D
     7E803410D09AAAAAAAA
+- expected_values:
+    VSS: 0
+  response: |-
+    CAN ERROR
+    NO DATA
+    > 7E1.7E9.010D
+    7E803410D00AAAAAAAA
